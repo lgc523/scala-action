@@ -1,6 +1,8 @@
-package dev.spider
+package dev.spider.basic
 
-object HelloWorld {
+//single object
+//scala 不存在静态成员，使用 single object 中的成员来代替静态成员
+object Hello {
   def main(args: Array[String]) {
     //变量，类型在等号之前声明
     var a: Int = 3
